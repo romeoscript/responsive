@@ -10,7 +10,7 @@
 div.nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 6rem;
+    padding: 1rem 3rem;
     width: 100vw;
     background: #304353;
 }
@@ -348,6 +348,11 @@ div.footer h6 {
 @media screen and (max-width:600px){
     /* body
     } */
+    body { 
+    margin:0 ;
+    padding: 0;
+    width:100%;
+    }
     div.nav-bar {
         display: flex;
         justify-content:space-between;
@@ -373,7 +378,7 @@ div.footer h6 {
         box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
         padding: 15px 40px;
         width: 600px;
-        height: 250px;
+        height: 300px;
         position: relative;
         font-size: 1.0rem;
     }
@@ -387,12 +392,12 @@ div.footer h6 {
         padding-top: 0.8rem;
     }
     div.background {
-        width: 550px;
-        height: 250px;
+        width: 350px;
+        height: 300px;
     }
     div.background p {
         color: #A6A5AA;
-        padding-left: 2rem;
+        padding-left: 0.5rem;
         font-size: 0.6rem;
     }
     div.snapshot-team h2{
@@ -405,5 +410,31 @@ div.footer h6 {
         display: flex;
         flex-direction: column;
     }
+   div.hero-section {
+    background: #304353;
+    padding: 3rem;
+}
+
+div.hero-content-heading {
+    text-align: center;
+}
+
+div.hero-content-heading h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #bcc3c7;
+}
+
+div.hero-content-heading p {
+    text-align: center;
+    padding-top: 0.7rem;
+    color: #88949B;
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
    
 }
